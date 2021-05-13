@@ -1,0 +1,4 @@
+Malloc failed!
+free 16
+Size was 0, malloc failed!
+free 16

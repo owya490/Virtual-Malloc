@@ -1,0 +1,6 @@
+free 8
+allocated 8
+allocated 4
+free 4
+free 8
+allocated 16

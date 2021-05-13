@@ -1,0 +1,7 @@
+Free failed, ptr was NULL!
+Free failed, ptr was not in Memory!
+allocated 4
+free 4
+free 8
+free 16
+Free failed, ptr was already freed!

@@ -1,0 +1,47 @@
+test_malloc.c
+Tests the functions of malloc, if it will allocate the required amount of memory and is accessible. Tests the general functionality of virtual_malloc
+----------------------------
+test_free.c
+Tests the functions of free, if it will free the required amount of memory and perform the meta data updates. Tests the general functionality of virtual_free
+----------------------------
+test_realloc.c
+Tests the functions of realloc, if it will reallocate the required amount of memory and is accessible. Tests the general functionality of virtual_realloc
+----------------------------
+test_realloc_computing_as_free.c 
+Tests if realloc computes the availablility with the requested area as free
+----------------------------
+test_malloc_min.c 
+Tests if a malloc request below min is dealt with and only min is allocated
+----------------------------
+test_deep_malloc.c
+Tests if program can handle multiple malloc calls and allocate memory correctly without fault
+----------------------------
+test_deep_free.c
+After deep malloc, test if the program can then free all allocated memory correctly and merge correctly back to free
+----------------------------
+test_alternate_free.c
+Tests if there is a free then allocated, if the allocated is freed, will the merging be correctly performed
+----------------------------
+test_alternate_malloc.c 
+Tests if there is a free then allocated, and then memory is allocated of the same size as the free, if it will be slotted in. 
+----------------------------
+test_small_malloc.c 
+Tests if big initial size can be malloced into a small alloc size
+----------------------------
+test_realloc_fail.c
+owya----------------------------
+test_malloc_fail.c
+Tests if malloc returns NULL if the memory allocation fails
+----------------------------
+test_free_fail.c
+Tests if free can return error if it is impossible or unsuccessful
+----------------------------
+test_realloc_free.c
+Tests if the program can free even if after all variables have been realloced to new heap spaces
+----------------------------
+test_realloc_no_merge.c
+Tests if the program can detect if realloc is mean to merge or not once it is calculating as if the block is freed'
+----------------------------
+test_sbrk_fail.c 
+Tests if the program can deal with edge case of SBRK failing and running out of memory
+

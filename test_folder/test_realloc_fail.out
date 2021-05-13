@@ -1,0 +1,7 @@
+allocated 4
+free 4
+allocated 8
+Ptr is NULL, reallocation failed!
+allocated 4
+free 4
+allocated 8
